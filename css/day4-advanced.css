@@ -1,0 +1,39 @@
+/* Day 4: Advanced CSS */
+
+/* Flexbox */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-item {
+    flex: 1;
+    margin: 10px;
+}
+
+/* Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.grid-item {
+    background: #d1eaff;
+    padding: 20px;
+}
+
+/* Transitions & Animations */
+.button {
+    transition: background 0.3s;
+}
+.button:hover {
+    background: #3366cc;
+    color: #fff;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.fade-in {
+    animation: fadeIn 2s ease-in;
+}

@@ -1,0 +1,30 @@
+/* Day 2: Box Model & Layout */
+
+/* Box Model */
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #333;
+    background: #e0e0e0;
+}
+
+/* Display */
+.inline {
+    display: inline;
+}
+.block {
+    display: block;
+}
+
+/* Position */
+.relative {
+    position: relative;
+    left: 10px;
+}
+.absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
